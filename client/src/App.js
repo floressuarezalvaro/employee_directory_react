@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import axios from "axios";
-import HelloDiv from "./components/HelloDiv";
+// import HelloDiv from "./components/HelloDiv";
 function App() {
   useEffect(() => {
     axios
       .get("/example")
-      .then((response) => console.log(response))
+      .then((response) => console.log(console.log("axios success")))
       .catch((err) => console.log(err));
   });
   return (
