@@ -6,11 +6,10 @@ function App() {
   useEffect(() => {
     axios
       .get("/example")
-      .then((response) => console.log(console.log("axios success")))
+      .then((response) => console.log(response))
       .catch((err) => console.log(err));
   });
   return (
-    // <HelloDiv />
     <div className="App">
       <h1>Hello World - FIrst REACT app</h1>
     </div>
