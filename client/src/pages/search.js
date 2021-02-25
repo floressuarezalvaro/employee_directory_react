@@ -15,9 +15,7 @@ function Search() {
 
   return (
     <div>
-      <button onClick={() => setEmployeeState({ ...EmployeeState })}>
-        Click Me
-      </button>
+      <h1>Search.js here</h1>
     </div>
   );
 }
